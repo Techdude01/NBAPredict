@@ -1,5 +1,8 @@
-# Environment variables
-.env
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
 
 # Python
 __pycache__/
@@ -7,32 +10,29 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
-venv/
-ENV/
-.venv
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb_checkpoints/
 
-# Data files
-data/
+# Data
 *.csv
 *.json
 *.parquet
+*.npy
+
+# Models
+models/
+results/
+
+# Environment variables
+.env
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Kaggle
-kaggle.json
-
